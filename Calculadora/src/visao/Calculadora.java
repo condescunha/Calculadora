@@ -9,6 +9,8 @@ package visao;
  *
  * @author Marcondes Araujo
  */
+
+// Jframe - Componente responsável para renderização da janela, permite ações como maximizar, minimizar e fechar a aplicação.
 public class Calculadora extends javax.swing.JFrame {
 
     /**
@@ -179,10 +181,11 @@ public class Calculadora extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldResultadoActionPerformed
 
-    private void limparCampos(){
+    private void limparCampos() {
         jTextFieldValor1.setText("");
         jTextFieldValor2.setText("");
     }
+
     /**
      * @param args the command line arguments
      */
